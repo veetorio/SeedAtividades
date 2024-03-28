@@ -16,11 +16,11 @@ public class App {
     public static void main(String... args) throws Exception {
 
         
-        // InputValues calcular_salarios = new InputValues();
-        // System.out.println(calcular_salarios.Calculator());
+        InputValues calcular_salarios = new InputValues();
+        System.out.println(calcular_salarios.Calculator());
 
-        InitLauncher bombaRelogio = new InitLauncher();
-        bombaRelogio.InitCount();
+        // InitLauncher bombaRelogio = new InitLauncher();
+        // bombaRelogio.InitCount();
         
 
     }

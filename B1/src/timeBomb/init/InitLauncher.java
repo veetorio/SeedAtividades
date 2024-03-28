@@ -12,6 +12,7 @@ public class InitLauncher {
 
     public InitLauncher(){
             try {
+            System.out.println("--------- iniciar a contagem ----------\n---coloque o inicializador");
             int __seconds = leia.nextInt();
             this.seconds = __seconds;
             leia.close();
@@ -27,6 +28,8 @@ public class InitLauncher {
      * @throws InterruptedException
      */
     public void InitCount() throws InterruptedException{
-        System.out.println(TimerBomber.Init(this.seconds));
+        if(state){
+            System.out.println(TimerBomber.Init(this.seconds));
+        }
     }
 }

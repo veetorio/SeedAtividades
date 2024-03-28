@@ -24,10 +24,10 @@ public class InputValues {
          * * aqui faz captura dos dados do usuario para analisar e ver se não possue nenhum erro.
          */
         try {
-            double SlP = leia.nextDouble();
-            double SlM = leia.nextDouble();
-            this.salario_pessoa = SlP;
-            this.salario_minimo = SlM;
+            String SlP = leia.next().replace(",",".");
+            String SlM = leia.next().replace(",",".");
+            this.salario_pessoa = Double.parseDouble(SlP);
+            this.salario_minimo = Double.parseDouble(SlM);
             leia.close();
         } catch (Exception e) {
             state = false;
