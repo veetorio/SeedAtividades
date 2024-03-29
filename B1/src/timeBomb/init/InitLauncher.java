@@ -2,7 +2,7 @@ package timeBomb.init;
 
 import java.util.Scanner;
 
-import B1.lib.ColorCodes;
+import colors.ColorCodes;
 import timeBomb.Algorithm.TimerBomber;
 
 public class InitLauncher {

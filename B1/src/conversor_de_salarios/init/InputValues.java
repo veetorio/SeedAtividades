@@ -2,7 +2,7 @@ package conversor_de_salarios.init;
 
 import java.util.Scanner;
 
-import B1.lib.ColorCodes;
+import colors.ColorCodes;
 import conversor_de_salarios.algorithm.CalculoSalarios;
 
 /**

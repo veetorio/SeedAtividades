@@ -1,4 +1,4 @@
-package B1.lib;
+package colors;
 
 public enum ColorCodes {
     ErrorColor("\u001B[31m"),
@@ -26,3 +26,4 @@ public enum ColorCodes {
     }
 
 }
+
